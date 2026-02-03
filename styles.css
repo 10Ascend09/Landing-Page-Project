@@ -1,55 +1,120 @@
-.body {
-    font-family: 'Roboto';
-}
-.topSection, .footer {
-    background-color: #1F2937;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid 1px yellow; */
 }
 
-.topSection {
-    flex-wrap: wrap;
-}
-.topSection, .midSection, .endSection, footer {
-    display: flex;
+/*Setting colors of main sections*/
+.topSection, .footer {
+    background-color: #1F2937;
 }
 .quoteSection {
     background-color: #E5E7EB;
 }
+
+.sections {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+}
+.navigation,.nav2 {
+    margin: 0 128px;
+}
 .navigation {
-    margin: 0 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     font-size: 16px;
+}
 
-}
 .midSection {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
+.midSection h2 {
+    margin-top: 16px;
+}
+.imageWrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .navLinks {
     display: flex;
 }
-.navLinks a {
+
+.navLinks a{
     margin: 8px;
     margin-right: 0;
     text-decoration: none;
     color: #E5E7EB;
-    font-weight: ;
 }
-.endSection {
+
+.nav2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-BETWEEN;
+    margin-top: 32px;
+}
+.nav2 img {
+    justify-self: flex-end;
+}
+.nav2 div {
+    width: 300px;
+    height: 150px;
+}
+.imageBox {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #3882F6;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.topSection h1 {
+    font-size: 24px;
 
 }
-.endSection button {
-    display: block;
-    border: solid 2px white;
+.topSection h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
-.calltoAction {
 
+.topSection {
+    height: 400px;
+}
+.topSection button{
+    margin-top:5px;
     background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 40px;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
-.quoteSection p{
-    margin: 0 96px;
+.topSection p {
+    color: white;
+}
+
+.imageBoxwrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.textBoxwrap {
+    display: flex;
+    flex-shrink: 1;
+    gap: 20px;
+}
+.textBoxwrap p {
+    width: 100px;
+    text-align: center;
+    margin-top: 8px;
 }
