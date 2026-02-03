@@ -10,8 +10,18 @@
 }
 .quoteSection {
     background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
 }
-
+.quoteSection p {
+    margin:300px
+}
+.quoteSection strong {
+    /* margin-left: 650px; */
+    display: block;
+    text-align: end;
+    text
+}
 .sections {
     display: flex;
     flex: none;
@@ -33,6 +43,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    height: 300px;
 }
 .midSection h2 {
     margin-top: 16px;
@@ -117,4 +128,15 @@
     width: 100px;
     text-align: center;
     margin-top: 8px;
+}
+
+.endSection {
+    display: flex;
+    justify-content: center;
+}
+.endSection .calltoAction {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    margin: 0 128px;
 }
