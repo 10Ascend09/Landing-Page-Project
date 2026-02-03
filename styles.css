@@ -1,0 +1,55 @@
+.body {
+    font-family: 'Roboto';
+}
+.topSection, .footer {
+    background-color: #1F2937;
+}
+
+.topSection {
+    flex-wrap: wrap;
+}
+.topSection, .midSection, .endSection, footer {
+    display: flex;
+}
+.quoteSection {
+    background-color: #E5E7EB;
+}
+.navigation {
+    margin: 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+
+}
+.midSection {
+    justify-content: center;
+}
+.navLinks {
+    display: flex;
+}
+.navLinks a {
+    margin: 8px;
+    margin-right: 0;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: ;
+}
+.endSection {
+    display: flex;
+    justify-content: space-between;
+
+}
+.endSection button {
+    display: block;
+    border: solid 2px white;
+}
+.calltoAction {
+
+    background-color: #3882F6;
+}
+
+.quoteSection p{
+    margin: 0 96px;
+}
