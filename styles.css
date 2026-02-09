@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     /* border: solid 1px yellow; */
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
 }
 
 /*Setting colors of main sections*/
@@ -159,4 +160,11 @@
     display: flex;
     align-items: center;
     height:100px;
+}
+.footer p {
+    color: white;
+    letter-spacing: 1px;
+}
+.footer span {
+
 }
